@@ -1,7 +1,7 @@
 {
   "name": "sixyt",
   "version": "0.0.1",
-  "description": "org-mode parser in JavaScript",
+  "description": "Markdown parser in JavaScript",
   "dist": "dist/bundle.js",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "watch": "rollup -c -w"
   },
   "keywords": [
-    "org-mode"
+    "markdown"
   ],
   "author": "a1trl9",
   "license": "MIT",

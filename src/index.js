@@ -1,3 +1,3 @@
-export default function parse() {
-  // TODO
-}
+import parse from './parser'
+
+export default parse
