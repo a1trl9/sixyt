@@ -1,0 +1,14 @@
+var _user$project$Main$init = function (str) {
+	return {
+		ctor: '_Tuple2',
+		_0: _user$project$Model$Content(str),
+		_1: _user$project$Update$getRepoInfo
+	};
+};
+var _user$project$Main$main = _elm_lang$html$Html$program(
+	{
+		init: _user$project$Main$init('init'),
+		update: _user$project$Update$update,
+		view: _user$project$View$header,
+		subscriptions: _user$project$Subscription$subscriptions
+	})();

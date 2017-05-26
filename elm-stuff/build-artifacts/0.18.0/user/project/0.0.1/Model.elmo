@@ -1,0 +1,13 @@
+var _user$project$Model$GithubTrending = function (a) {
+	return {data: a};
+};
+var _user$project$Model$GithubRepo = F5(
+	function (a, b, c, d, e) {
+		return {repo: a, lang: b, author: c, repoUrl: d, star: e};
+	});
+var _user$project$Model$Content = function (a) {
+	return {ctor: 'Content', _0: a};
+};
+var _user$project$Model$Trending = function (a) {
+	return {ctor: 'Trending', _0: a};
+};
